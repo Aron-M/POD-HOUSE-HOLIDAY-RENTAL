@@ -47,8 +47,37 @@ body {
   
 }
 
-#hero-image {
-    width: 95vw;
+.hero-image {
+    width: 100vw;
     height: auto;
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #292c31;
+    margin: 0 10rem 2rem 0;
     
+}
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas-Neue', sans-serif;
+    font-size: 3rem;
+    color: #ffff;
+}
+
+.info-div {
+    text-align: center;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: #292c31;
+    padding: 2rem;
+}
+
+.space{
+    margin-bottom: 2rem;
 }
