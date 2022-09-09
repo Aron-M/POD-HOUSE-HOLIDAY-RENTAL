@@ -98,6 +98,17 @@ body {
     justify-content: flex-start;
 }
 
+figcaption {
+    margin: 10px 0 0 0;
+    font-variant: small-caps;
+    font-family: Arial;
+    font-weight: bold;
+    color: #303339;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
 .includes {
     margin-bottom: 5rem;
     font-family: 'Inter', sans-serif;
