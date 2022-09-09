@@ -156,3 +156,10 @@ figcaption {
     color: #ffffff;
     font-size: 1.5rem;
 }
+
+.activities {
+    display: inline-block;
+    margin: 0 2rem 0 2rem;
+    width: 17rem;
+    height:auto;
+}
