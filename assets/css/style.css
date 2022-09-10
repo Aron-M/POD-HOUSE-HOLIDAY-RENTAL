@@ -165,3 +165,12 @@ figcaption {
     flex-direction: column;
     justify-content: center space-between;
 }
+
+#map {
+    height: 13.5rem;
+    width: 90%;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+}
