@@ -47,7 +47,7 @@ body {
 }
 
 .hero-image {
-    width: 100vw;
+    width: 100%;
     height: auto;
     display:flex;
     justify-content: center;
@@ -86,6 +86,9 @@ body {
 
 
 .interior-images {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
     width: 22rem;
     height: 22rem;
     border: #292c31;
@@ -169,8 +172,27 @@ figcaption {
 #map {
     height: 13.5rem;
     width: 90%;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-left: 1rem;
     display: flex;
     justify-content: center;
 }
+
+#address {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 0.4rem;
+    border-color: #ffffff;
+    width: auto;
+    height: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
