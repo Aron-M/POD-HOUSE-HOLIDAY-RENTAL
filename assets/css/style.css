@@ -174,7 +174,7 @@ figcaption {
     font-family: 'Bebas-Neue', sans-serif;
 }
 
-.section-align {
+.form-inputs {
     display: flex;
     align-items:center;
     flex-direction: column;
