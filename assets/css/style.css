@@ -1,7 +1,6 @@
 html {
     font-size: 62.5%;
     background-color: #60806c;
-
 }
 
 body { 
@@ -65,7 +64,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Bebas-Neue', sans-serif;
-    font-size: 3rem;
+    font-size: 2.6rem;
     color: #ffff;
 }
 
@@ -84,18 +83,14 @@ body {
     margin-bottom: 2rem;
 }
 
-#kls {
-    width: 30rem;
-    height:15rem;
-}
 
-.resize {
-    
+
+.interior-images {
     width: 22rem;
     height: 22rem;
-    margin: auto;
-    display:flex;
-    justify-content: flex-start;
+    border: #292c31;
+    border-width: 0.2rem;
+    border-style: solid;
 }
 
 figcaption {
@@ -159,7 +154,14 @@ figcaption {
 
 .activities {
     display: inline-block;
-    margin: 0 2rem 0 2rem;
+
     width: 17rem;
     height:auto;
+}
+
+.section-align {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center space-between;
 }
