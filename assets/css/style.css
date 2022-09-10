@@ -108,6 +108,9 @@ figcaption {
 }
 
 .includes {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
     margin-bottom: 5rem;
     font-family: 'Inter', sans-serif;
     font-size: 4rem;
@@ -136,11 +139,8 @@ figcaption {
     align-items: center;
     justify-content: space-between;
     justify-content: space-evenly;
-    text-align:center;
-
-    
+    text-align:center;   
     padding: 0;
-    list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -155,9 +155,13 @@ figcaption {
     font-size: 1.5rem;
 }
 
-.activities{
+.activities{position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
     display: block;
-    margin-left: 4rem;
     display: flex;
     width: 17rem;
     height:auto;
@@ -191,7 +195,6 @@ figcaption {
     height: auto;
     list-style: none;
     display: flex;
-   
     text-align: center;
 }
 
@@ -203,6 +206,6 @@ figcaption {
 
 #footer {
     background-color: #000000;
-    height: 20rem;
+    height: 35rem;
     width: 100%;
 }
