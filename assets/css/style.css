@@ -155,11 +155,19 @@ figcaption {
     font-size: 1.5rem;
 }
 
-.activities {
-    display: inline-block;
-
+.activities{
+    display: block;
+    margin-left: 4rem;
+    display: flex;
     width: 17rem;
     height:auto;
+}
+
+.icon-description {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: 'Bebas-Neue', sans-serif;
 }
 
 .section-align {
@@ -171,11 +179,8 @@ figcaption {
 
 #map {
     height: 13.5rem;
-    width: 90%;
+    width: 100%;
     margin-top: 1rem;
-    margin-left: 1rem;
-    display: flex;
-    justify-content: center;
 }
 
 #address {
@@ -195,4 +200,6 @@ figcaption {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
 
