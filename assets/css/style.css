@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
     background-color: #60806c;
 }
 
@@ -97,7 +98,6 @@ body {
 }
 
 figcaption {
-    margin: 10px 0 0 0;
     font-variant: small-caps;
     font-family: Arial;
     font-weight: bold;
@@ -107,20 +107,21 @@ figcaption {
     margin-top: 2rem;
 }
 
-.includes {
+.includes-box {
     position: relative;
     left: 50%;
     transform: translate(-50%);
     margin-bottom: 5rem;
+    margin-top: 1rem;
     font-family: 'Inter', sans-serif;
     font-size: 4rem;
     color: #ffffff;
     border: #ffffff;
     border-style: solid;
-    border-spacing: 0;
     width: 22rem;
     display: flex;
     justify-content: center;
+    
 }
 
 .features {
@@ -154,9 +155,7 @@ figcaption {
     font-size: 1.5rem;
 }
 
-.activities{position: relative;
-    left: 50%;
-    transform: translate(-50%);
+.activities{
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -210,4 +209,20 @@ figcaption {
     background-color: #000000;
     height: 25rem;
     width: auto;
+}
+
+.social-media {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display:column;
+}
+
+.social-media > li {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: block;
+    display: flex;
+    justify-content: flex-start;
 }
