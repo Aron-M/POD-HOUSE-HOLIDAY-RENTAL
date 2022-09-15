@@ -219,6 +219,9 @@ figcaption {
     justify-content: space-around;
 }
 
-.social-media > li {
+.social-media i {
     margin: 12rem 4rem 0 0;
+    font-size: 160%;
+    list-style: none;
+    color: #ffffff;
 }
