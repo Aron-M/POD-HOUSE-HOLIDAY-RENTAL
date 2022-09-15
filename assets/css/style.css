@@ -206,21 +206,19 @@ figcaption {
 #footer {
     background-color: #000000;
     height: 25rem;
-    width: auto;
 }
 
+
+
+
+
 .social-media {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    display:column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .social-media > li {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    display: block;
-    display: flex;
-    justify-content: flex-start;
+    margin: 12rem 4rem 0 0;
 }
