@@ -80,11 +80,6 @@ body {
     padding: 2rem;
 }
 
-.space{
-    margin-bottom: 2rem;
-}
-
-
 
 .interior-images {
     position: relative;
@@ -110,6 +105,7 @@ figcaption {
 .includes-box {
     position: relative;
     left: 50%;
+    top: 2rem;
     transform: translate(-50%);
     margin-bottom: 5rem;
     margin-top: 1rem;
@@ -126,6 +122,8 @@ figcaption {
 
 .features {
     background-color: #303339;
+    height: 66rem;
+    width: 26rem;
 }
 
 .listfeatures {
@@ -140,7 +138,7 @@ figcaption {
     justify-content: space-between;
     justify-content: space-evenly;
     text-align:center;   
-    padding: 0;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
